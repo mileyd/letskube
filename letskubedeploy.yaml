@@ -16,12 +16,12 @@ spec:
       - name: letskube
         image: haelshabacr.azurecr.io/helshabini/letskube:latest
         imagePullPolicy: IfNotPresent
-    imagePullSecrets:
-    - name: haelshabacrsp
       restartPolicy: Always
   selector:
     matchLabels:
       app: letskube
+imagePullSecrets:
+- name: haelshabacrsp
 
 
 ---
