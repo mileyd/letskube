@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: letskube
-        image: haelshabacr.azurecr.io/letskube:latest
+        image: haelshabacr.azurecr.io/helshabini/letskube:latest
         imagePullPolicy: IfNotPresent
       restartPolicy: Always
   selector:
